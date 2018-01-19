@@ -1,0 +1,183 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Unify
+    Template URI: http://skthemeing.com
+    Description: This is html5 template
+    Author: BootExperts
+    Author URI: http://skthemeing.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+/* google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,700|Raleway:300,400,500,700,800');
+
+html, body {
+    height: 100%;
+  
+}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+  font-family: 'Raleway', sans-serif;
+   color: #353535;
+}
+a {transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #8ec448;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {font-family: 'Lato', sans-serif;
+      color: #353535;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/*header start*/
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0; 
+    z-index: 11;
+}
+.header-area{
+   position: relative;
+
+}
+.header-area::before{
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    opacity: .8;
+    position: absolute;
+}
+
+.logo{
+    margin-top: 19px;
+}
+.main-menu ul li{
+    display: inline-block;
+    position: relative;
+}
+.main-menu ul li a{
+    color: #353535;
+    padding: 40px 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700; 
+    display: block;
+}
+.main-menu ul li:hover a,
+.main-menu ul li.active a{
+    color: #8ec448;
+}
+.header-search{
+    margin-top: 34px;
+}
+.header-search form{
+   position:relative;
+}
+.header-search form input{
+    width: 100%;
+    height: 35px;
+    border: 1px solid #DDDDDD;
+    padding-left: 10px;
+}
+.header-search form button{
+   position:absolute;
+   border: 0;
+   background: none;
+   top: 4%;
+   right: 0;
+   width: 35px;
+   height: 35px;
+   border-left: 1px solid #ddd;
+   color: #666;
+}
+/*slider area start*/
+.single-slider{
+    position: relative;
+}
+.slider-image{}
+.slider-image img{}
+.slider-text{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.slider-text span{
+    font-size: 24px;
+    font-weight: 700;
+
+}
+.slider-text h1{
+    font-weight: 700;
+    font-size: 60px;
+    margin: 40px 0;
+    line-height: 40px;
+}
+.slider-text a{
+    border: 2px solid #353535;
+    padding: 15px 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 0 7px;
+}
+.slider-text a:hover{
+    color:#fff;
+    background: #8ec448;
+    border-color: #8ec448;  
+}
+
+/*slider area end*/
+
+
+
+
+
+
+/*header end*/
